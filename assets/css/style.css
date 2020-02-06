@@ -450,11 +450,6 @@ p {
   font-family: "Futura-Normal", arial;
 }
 
-._subtitulo {
-  font-style: light;
-  font-size: 0.8rem;
-}
-
 .banner {
   height: 200px;
   width: 100vw;
@@ -490,18 +485,43 @@ li {
 .profile {
   height: 150px;
   width: 100vw;
-  background-color: lavenderblush;
+  background-color: red;
 }
-.profile ul li {
-  text-decoration: none;
+
+.perfil_avatar {
   display: inline-block;
+}
+
+.perfil_texto {
+  display: inline-block;
+}
+.perfil_texto p {
+  padding-bottom: 0;
+}
+
+.perfil_botones {
+  display: inline-block;
+}
+
+.perfil_alineado {
+  display: flex;
+  align-items: center;
 }
 
 ._yuki {
   width: 100px;
   height: 100px;
-  display: inline-block;
   border-radius: 60px;
+}
+
+.video_subtitulo {
+  font-style: light;
+  font-size: 0.8rem;
+}
+
+.video_titulo {
+  font-size: 1rem;
+  font-weight: 700;
 }
 
 /*# sourceMappingURL=style.css.map */

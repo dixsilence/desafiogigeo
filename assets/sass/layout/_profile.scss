@@ -1,9 +1,31 @@
+//Formato de la sección//
 .profile {
     height: 150px;
     width: 100vw;
-    background-color: lavenderblush;
+    background-color: red;
 }
 
+.perfil_avatar {
+    display: inline-block;
+}
+
+.perfil_texto {
+    display: inline-block;
+    p {
+        padding-bottom: 0;
+    }
+}
+
+.perfil_botones {
+    display: inline-block;
+}
+
+.perfil_alineado {
+    display: flex;
+    align-items: center;
+}
+
+// Formato del avatar //
 ._yuki {
     width: 100px;
     height: 100px;
