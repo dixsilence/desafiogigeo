@@ -5,29 +5,41 @@
     background-color: silver;
 }
 
-.perfil_avatar {
-    display: inline-block;
-}
-
-.perfil_texto {
-    display: inline-block;
-    p {
-        padding-bottom: 0;
-    }
-}
-
-.perfil_botones {
-    display: inline-block;
-}
-
-.perfil_alineado {
-    // display: flex;
-    align-items: center;
-}
-
+// .perfil_avatar {
+//     display: inline-block;
+// }
+// .perfil_texto {
+//     display: inline-block;
+//     p {
+//         padding-bottom: 0;
+//     }
+// }
+// .perfil_botones {
+//     display: inline-block;
+// }
 // Formato del avatar //
 ._yuki {
     width: 100px;
     height: 100px;
     border-radius: 60px;
 }
+
+////////////////////
+// .perfil {
+//     width: 100vw;
+//     height: 5rem;
+//     display: flex;
+//     align-items: center;
+//     justify-content: space-between;
+// }
+// .perfil-usuario {
+//     display: flex!important;
+//     align-items: center!important;
+// }
+// .perfil-usuario-titulo {
+//     margin: 0;
+// }
+// .perfil-usuario-bajada {
+//     margin: 0;
+//     //definir family, color, size, weight
+// }

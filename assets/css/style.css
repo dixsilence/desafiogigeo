@@ -463,6 +463,8 @@ p {
   font-family: "Poppins", sans-serif;
   font-size: 4rem;
   font-weight: 500;
+  margin: 0;
+  padding: 0;
 }
 
 .superindice {
@@ -473,10 +475,6 @@ p {
 
 .logo {
   display: inline-block;
-}
-
-.contenedor_logo {
-  flex-direction: row;
 }
 
 li {
@@ -494,32 +492,13 @@ li {
 
   .navbar-brand {
     font-size: 2rem;
-    font-weight: 300;
+    font-weight: 400;
   }
 }
 .profile {
   height: 150px;
   width: 100vw;
   background-color: silver;
-}
-
-.perfil_avatar {
-  display: inline-block;
-}
-
-.perfil_texto {
-  display: inline-block;
-}
-.perfil_texto p {
-  padding-bottom: 0;
-}
-
-.perfil_botones {
-  display: inline-block;
-}
-
-.perfil_alineado {
-  align-items: center;
 }
 
 ._yuki {
@@ -552,6 +531,12 @@ li {
 .img-thumbnail {
   border: 0;
   margin-bottom: 15px;
+}
+
+.test {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .btn__mensaje {

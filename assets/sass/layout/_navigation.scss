@@ -2,6 +2,8 @@
     font-family: 'Poppins', sans-serif;
     font-size: 4rem;
     font-weight: 500;
+    margin: 0;
+    padding: 0;
 }
 
 .superindice {
@@ -14,10 +16,9 @@
     display: inline-block;
 }
 
-.contenedor_logo {
-    flex-direction: row;
-}
-
+// .contenedor_logo {
+//     flex-direction: row;
+// }
 li {
     padding-left: 25px;
 }
@@ -32,6 +33,6 @@ li {
     }
     .navbar-brand {
         font-size: 2rem;
-        font-weight: 300;
+        font-weight: 400;
     }
 }
