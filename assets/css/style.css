@@ -461,7 +461,8 @@ p {
 
 .navbar-brand {
   font-family: "Poppins", sans-serif;
-  font-size: 2rem;
+  font-size: 4rem;
+  font-weight: 500;
 }
 
 .superindice {
@@ -482,10 +483,24 @@ li {
   padding-left: 25px;
 }
 
+.navbar {
+  height: 150px;
+}
+
+@media (min-width: 992px) {
+  .navbar {
+    height: 100px;
+  }
+
+  .navbar-brand {
+    font-size: 2rem;
+    font-weight: 300;
+  }
+}
 .profile {
   height: 150px;
   width: 100vw;
-  background-color: red;
+  background-color: silver;
 }
 
 .perfil_avatar {
@@ -504,7 +519,6 @@ li {
 }
 
 .perfil_alineado {
-  display: flex;
   align-items: center;
 }
 
@@ -516,12 +530,40 @@ li {
 
 .video_subtitulo {
   font-style: light;
-  font-size: 0.8rem;
+  font-size: 1rem;
 }
 
 .video_titulo {
-  font-size: 1rem;
+  font-size: 1.5rem;
   font-weight: 700;
+}
+
+@media (min-width: 992px) {
+  .video_subtitulo {
+    font-style: light;
+    font-size: 0.8rem;
+  }
+
+  .video_titulo {
+    font-size: 1rem;
+    font-weight: 700;
+  }
+}
+.img-thumbnail {
+  border: 0;
+  margin-bottom: 15px;
+}
+
+.btn__mensaje {
+  background-color: #93DDE6;
+  color: white;
+  border-radius: 3px;
+}
+
+.btn__follow {
+  background-color: #EF6461;
+  color: white;
+  border-radius: 3px;
 }
 
 /*# sourceMappingURL=style.css.map */

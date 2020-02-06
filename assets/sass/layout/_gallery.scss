@@ -1,9 +1,27 @@
+//Tamaños fuente por defecto (para mobile)
 .video_subtitulo {
     font-style: light;
-    font-size: 0.8rem;
+    font-size: 1rem;
 }
 
 .video_titulo {
-    font-size: 1rem;
+    font-size: 1.5rem;
     font-weight: 700;
+}
+
+//Tamaños fuente dispositivos md hacia arriba
+@media (min-width: 992px) {
+    .video_subtitulo {
+        font-style: light;
+        font-size: 0.8rem;
+    }
+    .video_titulo {
+        font-size: 1rem;
+        font-weight: 700;
+    }
+}
+
+.img-thumbnail {
+    border: 0;
+    margin-bottom: 15px;
 }

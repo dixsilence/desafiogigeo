@@ -1,6 +1,7 @@
 .navbar-brand {
     font-family: 'Poppins', sans-serif;
-    font-size: 2rem;
+    font-size: 4rem;
+    font-weight: 500;
 }
 
 .superindice {
@@ -19,4 +20,18 @@
 
 li {
     padding-left: 25px;
+}
+
+.navbar {
+    height: 150px;
+}
+
+@media (min-width: 992px) {
+    .navbar {
+        height: 100px;
+    }
+    .navbar-brand {
+        font-size: 2rem;
+        font-weight: 300;
+    }
 }
