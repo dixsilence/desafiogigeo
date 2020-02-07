@@ -447,12 +447,17 @@ template {
 }
 
 p {
-  font-family: "Futura-Normal", arial;
+  margin: 0;
+  padding: 0;
+}
+
+h3 {
+  margin: 0;
+  padding: 0;
 }
 
 .banner {
   height: 200px;
-  width: 100vw;
   background-image: url(../img/image-banner.png);
   background-position: center;
   background-repeat: no-repeat;
@@ -461,14 +466,18 @@ p {
 
 .navbar-brand {
   font-family: "Poppins", sans-serif;
-  font-size: 4rem;
+  font-size: 3.125rem;
   font-weight: 500;
   margin: 0;
   padding: 0;
 }
 
+.nav-link {
+  color: black !important;
+}
+
 .superindice {
-  font-size: 0.5rem;
+  font-size: 1rem;
   display: inline-block;
   position: absolute;
 }
@@ -491,22 +500,81 @@ li {
   }
 
   .navbar-brand {
-    font-size: 2rem;
-    font-weight: 400;
+    font-size: 2.25rem;
+    font-weight: 500 !important;
+  }
+
+  .superindice {
+    font-size: 0.5rem;
+  }
+
+  .nav-link {
+    font-size: 1.25rem;
   }
 }
 .profile {
   height: 150px;
   width: 100vw;
-  background-color: silver;
+  border-bottom: 1px solid gray;
+}
+
+.container__profile {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.perfil__persona {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.perfil__botones {
+  display: none;
 }
 
 ._yuki {
-  width: 100px;
-  height: 100px;
+  width: 75px;
+  height: 75px;
   border-radius: 60px;
 }
 
+.perfil__texto {
+  margin-left: 30px;
+  height: 75px;
+}
+
+.perfil__nombre {
+  margin: 0;
+  padding: 0;
+  font-weight: 700;
+  display: block;
+}
+
+.perfil__seguidores {
+  margin: 0;
+  padding: 0;
+  display: block;
+}
+
+@media (min-width: 768px) {
+  .perfil__persona {
+    display: flex;
+    justify-content: center;
+  }
+
+  .perfil__botones {
+    display: block;
+  }
+
+  .container__profile {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
 .video_subtitulo {
   font-style: light;
   font-size: 1rem;
