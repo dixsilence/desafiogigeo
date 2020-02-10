@@ -1,11 +1,17 @@
-// -----------------------------------------------------------------------------
-// This file contains all styles related to the header of the site/application.
-// -----------------------------------------------------------------------------
-.banner {
-    height: 200px;
-    // width: 100vw;
-    background-image: url(../img/image-banner.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
+        // -----------------------------------------------------------------------------
+        // This file contains all styles related to the header of the site/application.
+        // -----------------------------------------------------------------------------
+        .banner {
+            height: 100px;
+            // width: 100vw;
+            background-image: url(../img/image-banner.png);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        
+        @media (min-width: 992px) {
+            .banner {
+                height: 200px;
+            }
+        }
